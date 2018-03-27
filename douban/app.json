@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/subject/subject",
+    "pages/user/user"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "冰激凌",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/images/home.png",
+        "selectedIconPath": "/assets/images/home-light.png"
+       },
+       {
+        "pagePath": "pages/subject/subject",
+        "text": "分类",
+        "iconPath": "/assets/images/subject.png",
+        "selectedIconPath": "/assets/images/subject-light.png"
+       },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "/assets/images/user.png",
+        "selectedIconPath": "/assets/images/user-light.png"
+      }
+    ]
+  }
+}

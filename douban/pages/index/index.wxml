@@ -1,0 +1,13 @@
+<scroll-view scroll-y='true' lower-threshold='200' style='height:100%'>
+<view class='list-item' wx:for='{{movies}}' wx:key='{{index}}' wx:for-item='movieData'>
+  <view class='movie-item' wx:for='{{movieData}}' wx:key='{{item._id}}'>
+    <image class='poster' mode='widthFix' src="{{item.poster}}"></image>
+    <view class='title'>
+      <text>{{item.title}} <text class='rate'>{{item.rate}}</text></text>
+    </view>
+    <view class='info'>
+      <text>{{item.types}} / {{item.year}}</text>
+    </view>
+  </view>
+</view>
+</scroll-view>
